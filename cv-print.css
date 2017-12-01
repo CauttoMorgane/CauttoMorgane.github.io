@@ -1,0 +1,64 @@
+@media print{
+	body{
+		color:black;
+		font-size:20px;
+	}
+	nav {
+		display:none;
+	}
+	h1 a{
+		color:black;
+	}
+	h3{
+		font-size: 30px;
+	}
+	h4{
+		font-size: 20px;
+	}
+	footer a{
+		color:black;
+	}
+	/**********************************************************/
+	
+	/****** General ******/
+	.flex{
+		display: flex;
+		justify-content: space-around;
+	}
+	.bouton{
+		display:none;
+	}
+	/****** CV ******/
+	#presentation{
+		padding:2vh 5vh;
+		padding-top: 15vh;
+		font-size:25px;
+		color:black;
+	}
+
+	/****** CV ******/
+	#cv{
+		padding-top: 5vh;
+		padding-bottom: 5vh;
+		page-break-before:always;
+		color:black;
+	}
+	#cv b{
+		color:black;
+	}
+	#cv p{
+		font-size:15px;
+	}
+	#cv li{
+		font-size:15px;
+	}
+
+	/****** Contact ******/
+	#contact{
+		padding-top: 0vh;
+		color:black;
+	}
+	#background a{
+		color:black;
+	}
+}
